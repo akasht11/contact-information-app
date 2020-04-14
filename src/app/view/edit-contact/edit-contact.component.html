@@ -1,0 +1,29 @@
+<h2>
+    Edit Contact Details:
+</h2>
+<div class="popup">
+<form id ="formNewContact" name = "formNewContact" #productData = "ngForm" (ngSubmit) = "updateContact(productData.value)">
+
+    <label>
+        First Name: 
+    </label> <input type = "text" placeholder="firstname" [(ngModel)] = "data.firstname" name="first"><br>
+    
+    <label>
+        Last Name: 
+    </label> <input type = "text" placeholder="lastname" [(ngModel)] = "data.lastname" name="last"><br>
+    
+    <label>
+        Phone Number:
+     </label> <input type = "number" placeholder="phonenumber" [(ngModel)] = "data.phonenumber" name="phone"><br>
+    
+     <label>
+        Email Id:
+     </label> <input type = "email" placeholder="emailid" [(ngModel)] = "data.emailid" name="mailid"><br>
+    
+     <label>
+         Status: 
+     </label> <input type = "text" placeholder="status" [(ngModel)] = "data.status" name="status"><br><br>
+     
+     <input type="submit" value = "Update Contact">
+</form>
+</div>

@@ -1,0 +1,27 @@
+form, label, input {
+    border: 1px solid black;
+    font-size: 22px;
+    padding: 10px;
+}
+input {
+    margin-top: 10px;
+}
+.button-fancy{ 
+        background-color: #1c232c;
+        border: 2px solid #c3c3d1;
+        color: whitesmoke;
+        margin-left: 5%;
+        margin-top: 2.1%;
+        padding: 1%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1em;
+        display: inline-block;
+        width: 10%;
+        border-radius: 5px;
+        box-shadow: 3px 3px 8px 0 #000; 
+}
+p{
+    color: tomato;
+    font-size: 120%;
+}

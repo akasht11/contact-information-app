@@ -1,0 +1,37 @@
+table {
+    border-collapse: collapse;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+}  
+th, td {
+    border-top-width: thick;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+button{
+      margin-left: 10%;
+      margin-top: 3%;
+      tab-size: 30cm;
+}
+.button-fancy{ 
+        background-color: #407fdf;
+        border: 2px solid #020353;
+        color: whitesmoke;
+        margin-left: 67%;
+        margin-top: 2.1%;
+        padding: 1em 1.5em;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1em;
+        display: inline-block;
+        width: 15%;
+        border-radius: 5px;
+        box-shadow: 3px 3px 8px 0 #000; 
+}
+button:hover{
+    background-color: #1d4ea8;
+    color:#ffffff;
+}

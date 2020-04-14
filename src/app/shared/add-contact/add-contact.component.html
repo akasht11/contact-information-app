@@ -1,0 +1,32 @@
+<h2>
+  Add Contact Details:
+</h2>
+<div class="popup">
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit(contactForm.value)">
+   
+      <label>
+        First Name:
+      </label><input type="text" name="firstname" formControlName="firstname"><br>
+    
+      <label>
+        Last Name:
+      </label><input type="text" name="lastname" formControlName="lastname"><br>
+    
+      <label>
+        Phone Number:
+      </label><input type="text" name="phonenumber" formControlName="phonenumber"><br>
+    
+      <label>
+        Email Id:
+      </label><input type="email" name="emailid" formControlName="emailid"><br>
+  
+      <label>
+          Status:
+      </label><input type="text" name="status" formControlName="status"><br>
+    
+      <button class="button-fancy" type="submit" [disabled]="contactForm.invalid">SAVE</button>
+
+      <p>***All Fields are Required | validation</p>
+    
+    </form>
+</div>

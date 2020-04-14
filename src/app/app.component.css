@@ -1,0 +1,32 @@
+nav{
+    width: 100%;
+    background-color: rgb(81, 241, 233);
+    display: flex;
+    justify-content: left;
+    height: 75px;
+}
+nav a{
+      text-decoration: none;
+      font-family: 'Lucida Sans Unicode';
+      display:block;
+      font-size: 125%;
+      padding: 15px 25px;
+      text-align: center;
+      background-color: rgb(81, 241, 233);
+      color:#091313;
+      margin:0;
+      font-family:sans-serif;
+}
+nav b{
+      font-family:sans-serif;
+      font-size: 180%;
+      padding: 15px 25px;
+      text-align: left;
+      background-color: rgb(81, 241, 233);
+      color:#091313;
+      margin:0;
+}
+nav a:hover{
+      background-color: rgb(11, 194, 185);
+      color:#ffffff;
+}
